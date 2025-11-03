@@ -1,41 +1,38 @@
-# Prerequisites
-*.d
+# Общие игнорируемые файлы и папки
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+*.swp
 
-# Compiled Object files
-*.slo
-*.lo
+# Игнорируем файлы и папки для Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+ENV/
+env/
+
+# Игнорируем файлы и папки для C++
 *.o
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
+*.exe
+*.dll
 *.so
 *.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
 *.a
 *.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# debug information files
-*.dwo
+*.pch
+.cache/
+build/
+bin/
+out/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake-build-debug/
+cmake-build-release/
